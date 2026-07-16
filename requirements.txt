@@ -1,0 +1,13 @@
+torch==2.8.0
+torchvision==0.23.0
+torchaudio==2.8.0
+lightning
+timm
+scikit-learn
+pandas
+numpy==1.26.4
+matplotlib
+opencv-python
+pillow
+tqdm
+ipykernel
