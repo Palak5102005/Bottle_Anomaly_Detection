@@ -17,10 +17,12 @@ env/
 # Dataset
 # ===========================
 data/
+yolo_dataset/
 
 # ===========================
 # Model Files
 # ===========================
+*.pt
 models/
 *.pth
 *.pt
@@ -28,6 +30,7 @@ models/
 *.onnx
 *.engine
 *.trt
+
 
 # ===========================
 # Training Outputs

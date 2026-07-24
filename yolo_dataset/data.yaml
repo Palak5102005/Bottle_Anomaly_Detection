@@ -1,8 +1,9 @@
-
-path: D:\Projects\VisionXM\yolo_dataset
+path: d:/Projects/VisionXM/yolo_dataset
 
 train: images/train
 val: images/val
+
+nc: 1
 
 names:
   0: screw
