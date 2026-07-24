@@ -1,0 +1,8 @@
+
+path: D:\Projects\VisionXM\yolo_dataset
+
+train: images/train
+val: images/val
+
+names:
+  0: screw
