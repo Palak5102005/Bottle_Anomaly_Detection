@@ -3,6 +3,7 @@ torchvision==0.23.0
 torchaudio==2.8.0
 lightning
 timm
+anomalib
 scikit-learn
 pandas
 numpy==1.26.4
