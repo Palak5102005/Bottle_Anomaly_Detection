@@ -72,7 +72,7 @@ def create_model():
     return Patchcore(
         backbone="resnet18",
         layers=["layer2", "layer3"],
-        coreset_sampling_ratio=0.1,
+        coreset_sampling_ratio=0.01,
         num_neighbors=3,
     )
 
