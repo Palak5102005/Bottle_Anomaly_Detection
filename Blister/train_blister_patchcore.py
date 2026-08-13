@@ -63,7 +63,8 @@ def main():
     model = create_model()
 
     engine = Engine(
-        accelerator="gpu" if torch.cuda.is_available() else "cpu"
+        accelerator="gpu" if torch.cuda.is_available() else "cpu",
+        max_epochs =1,
     )
     engine.fit(model=model, datamodule=datamodule)
 
